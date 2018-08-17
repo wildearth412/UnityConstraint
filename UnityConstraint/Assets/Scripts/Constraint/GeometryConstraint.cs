@@ -64,14 +64,14 @@ public class GeometryConstraint : ConstraintBase
         Ray ray = new Ray(posA, dir* 999.9f);       
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerIndex))
         {
-            Debug.DrawRay(transform.position, dir, Color.yellow, 1.0f, false);
+            //Debug.DrawRay(transform.position, dir, Color.yellow, 1.0f, false);
             hitPos = hit.point;
             nmr = hit.normal; 
         }
         ray = new Ray(posB, -dir * 999.9f);    
         if (Physics.Raycast(ray, out hit, Mathf.Infinity, layerIndex))
         {
-            Debug.DrawRay(transform.position, -dir, Color.black, 1.0f, false);
+            //Debug.DrawRay(transform.position, -dir, Color.black, 1.0f, false);
             float dis1 = Vector3.Distance(pos,hitPos);
             float dis2 = Vector3.Distance(hit.point,pos);
             hitPos = dis2 < dis1 ? hit.point : hitPos;
@@ -82,7 +82,7 @@ public class GeometryConstraint : ConstraintBase
         transform.position = hitPos;
 
         // Apply rotation.
-        Debug.DrawRay(transform.position, nmr * 10.0f, Color.cyan, 1.0f, false);
+        //Debug.DrawRay(transform.position, nmr * 10.0f, Color.cyan, 1.0f, false);
         if (normalConstraint)
         {
             ApplyNormalConstraint(nmr);
