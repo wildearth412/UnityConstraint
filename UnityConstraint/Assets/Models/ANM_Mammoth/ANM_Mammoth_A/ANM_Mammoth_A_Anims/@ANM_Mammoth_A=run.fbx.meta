@@ -1,0 +1,173 @@
+fileFormatVersion: 2
+guid: 17cad4a2d8233fe4eb0d8ff28758c081
+timeCreated: 1510116579
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: bn_Hair_A
+    100004: bn_Hair_B
+    100006: bn_Head
+    100008: bn_l_0_Ankle
+    100010: bn_l_0_Hip
+    100012: bn_l_0_Knee
+    100014: bn_l_0_Toe
+    100016: bn_l_1_Ankle
+    100018: bn_l_1_Hip
+    100020: bn_l_1_Knee
+    100022: bn_l_1_Toe
+    100024: bn_l_Ear_A
+    100026: bn_l_eye_A_ball
+    100028: bn_l_eye_A_eyelid_down
+    100030: bn_l_eye_A_eyelid_top
+    100032: bn_Mouth
+    100034: bn_Neck
+    100036: bn_r_0_Ankle
+    100038: bn_r_0_Hip
+    100040: bn_r_0_Knee
+    100042: bn_r_0_Toe
+    100044: bn_r_1_Ankle
+    100046: bn_r_1_Hip
+    100048: bn_r_1_Knee
+    100050: bn_r_1_Toe
+    100052: bn_r_Ear_A
+    100054: bn_r_eye_A_ball
+    100056: bn_r_eye_A_eyelid_down
+    100058: bn_r_eye_A_eyelid_top
+    100060: bn_root
+    100062: bn_rootSub
+    100064: bn_Tail_0_0
+    100066: bn_Tail_0_1
+    100068: bn_Tail_Start_0
+    100070: bn_Tongue_0
+    100072: bn_Tongue_1
+    100074: bn_Tongue_2
+    100076: bn_Tongue_3
+    100078: bn_Tongue_Start_0
+    100080: bn_Vertabrae_0
+    100082: bn_Vertabrae_1
+    400000: //RootNode
+    400002: bn_Hair_A
+    400004: bn_Hair_B
+    400006: bn_Head
+    400008: bn_l_0_Ankle
+    400010: bn_l_0_Hip
+    400012: bn_l_0_Knee
+    400014: bn_l_0_Toe
+    400016: bn_l_1_Ankle
+    400018: bn_l_1_Hip
+    400020: bn_l_1_Knee
+    400022: bn_l_1_Toe
+    400024: bn_l_Ear_A
+    400026: bn_l_eye_A_ball
+    400028: bn_l_eye_A_eyelid_down
+    400030: bn_l_eye_A_eyelid_top
+    400032: bn_Mouth
+    400034: bn_Neck
+    400036: bn_r_0_Ankle
+    400038: bn_r_0_Hip
+    400040: bn_r_0_Knee
+    400042: bn_r_0_Toe
+    400044: bn_r_1_Ankle
+    400046: bn_r_1_Hip
+    400048: bn_r_1_Knee
+    400050: bn_r_1_Toe
+    400052: bn_r_Ear_A
+    400054: bn_r_eye_A_ball
+    400056: bn_r_eye_A_eyelid_down
+    400058: bn_r_eye_A_eyelid_top
+    400060: bn_root
+    400062: bn_rootSub
+    400064: bn_Tail_0_0
+    400066: bn_Tail_0_1
+    400068: bn_Tail_Start_0
+    400070: bn_Tongue_0
+    400072: bn_Tongue_1
+    400074: bn_Tongue_2
+    400076: bn_Tongue_3
+    400078: bn_Tongue_Start_0
+    400080: bn_Vertabrae_0
+    400082: bn_Vertabrae_1
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
