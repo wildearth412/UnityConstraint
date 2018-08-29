@@ -18,8 +18,7 @@ public class DistanceConstraint : ConstraintBase
     private Vector3 poleVector = Vector3.up;
     [SerializeField]
     private bool poleConstraint;
-    [SerializeField]
-    private GameObject poleTarget;
+    public GameObject poleTarget;
     private Vector3 posA;
     private Vector3 posB;
     private Vector3 vecAB;

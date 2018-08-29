@@ -13,7 +13,8 @@ public class GeometryConstraint : ConstraintBase
     //private Axis tangentAxis = Axis.Z;
     [SerializeField]
     private int layerIndex = 0;
-
+    [SerializeField]
+    private bool isVerticalMoving = false;
     //private Mesh mesh;
     private Bounds bounds;
     private MeshCollider meshCol;
@@ -54,7 +55,12 @@ public class GeometryConstraint : ConstraintBase
         Vector3 posB = Vector3.zero;
         Vector3 hitPos = pos;
         Vector3 nmr = Vector3.up;
-        Vector3 dir = boundCenter - pos;
+        Vector3 dir = -Vector3.up;
+        if (!isVerticalMoving)
+        {
+            dir = boundCenter - pos;
+        }
+        
         Vector3 dirBack = -dir.normalized * (bounds.size.magnitude + 9.0f);
         posA = pos + dirBack;
         posB = pos - dirBack;
