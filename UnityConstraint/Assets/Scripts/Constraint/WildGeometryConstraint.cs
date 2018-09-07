@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Constraint;
 
-public class GeometryConstraint : ConstraintBase
+public class WildGeometryConstraint : WildConstraintBase
 {
     [SerializeField]
     private bool normalConstraint;

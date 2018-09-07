@@ -11,7 +11,7 @@ public enum RotationType
     Roll,                 // About x-axis
 }
 
-public class RotationConstraint : ConstraintBase
+public class WildRotationConstraint : WildConstraintBase
 {
     [SerializeField]
     private RotationType rotationType = RotationType.All;

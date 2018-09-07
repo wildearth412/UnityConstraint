@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Constraint;
 
-public class PositionConstraint : ParentConstraint
+public class WildPositionConstraint : WildParentConstraint
 {
     [SerializeField]
     private bool constraintX = true;

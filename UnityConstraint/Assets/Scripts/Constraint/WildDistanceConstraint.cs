@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Constraint;
 
-public class DistanceConstraint : ConstraintBase
+public class WildDistanceConstraint : WildConstraintBase
 {    
     [SerializeField]
     private GameObject objTarget2;
