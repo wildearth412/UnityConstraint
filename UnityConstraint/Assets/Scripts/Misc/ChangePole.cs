@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangePole : MonoBehaviour
 {
-    public DistanceConstraint dc;
+    public WildDistanceConstraint dc;
     public GameObject obj1;
     public GameObject obj2;
 

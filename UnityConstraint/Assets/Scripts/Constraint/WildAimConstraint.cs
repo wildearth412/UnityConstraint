@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Constraint;
 
-public class AimConstraint : RotationConstraint
+public class WildAimConstraint : WildRotationConstraint
 {
     [SerializeField]
     private RotationType aimType = RotationType.All;

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Constraint;
 
-public class ScaleConstraint : ConstraintBase
+public class WildScaleConstraint : WildConstraintBase
 {
     [SerializeField]
     private bool isScaleOffset = true;      // If false, it will duplicate target's scale.

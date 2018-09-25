@@ -4,7 +4,7 @@ using UnityEngine;
 using Constraint;
 
 //[ExecuteInEditMode]
-public class ParentConstraint : ConstraintBase
+public class WildParentConstraint : WildConstraintBase
 {
     [SerializeField]
     protected bool isOffset;

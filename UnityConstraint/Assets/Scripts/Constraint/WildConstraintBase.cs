@@ -11,7 +11,7 @@ namespace Constraint
         Z,
     }
 
-    public class ConstraintBase : MonoBehaviour
+    public class WildConstraintBase : MonoBehaviour
     {
         [SerializeField]
         protected bool isOneShot;
